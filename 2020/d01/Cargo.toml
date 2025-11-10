@@ -1,9 +1,9 @@
 [package]
-name = "day_one"
+name = "d01"
 version = "0.1.0"
 edition = "2024"
 
 [features]
-one = []
-two = []
+p1 = []
+p2 = []
 opt = []

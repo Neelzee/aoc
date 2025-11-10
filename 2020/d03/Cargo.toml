@@ -1,9 +1,11 @@
 [package]
-name = "aoc2020"
+name = "d03"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 
-[workspace]
-members = ["d01", "d02", "d03"]
+[features]
+default = ["p2"]
+p1 = []
+p2 = []

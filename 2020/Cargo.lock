@@ -7,9 +7,13 @@ name = "aoc2020"
 version = "0.1.0"
 
 [[package]]
-name = "day_one"
+name = "d01"
 version = "0.1.0"
 
 [[package]]
-name = "day_two"
+name = "d02"
+version = "0.1.0"
+
+[[package]]
+name = "d03"
 version = "0.1.0"
