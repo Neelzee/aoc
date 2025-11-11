@@ -6,4 +6,7 @@ edition = "2024"
 [dependencies]
 
 [workspace]
-members = ["d01", "d02", "d03"]
+members = ["d01", "d02", "d03", "d04"]
+
+[workspace.dependencies]
+regex = "1.12.2"
