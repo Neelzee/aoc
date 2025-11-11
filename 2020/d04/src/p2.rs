@@ -29,7 +29,7 @@ pub fn run(input: &str) {
 }
 
 const COLOR_REGEX: LazyLock<Regex> = LazyLock::new(|| Regex::new("#[0-9a-f]{6}").unwrap());
-const PID_REGEX: LazyLock<Regex> = LazyLock::new(|| Regex::new("[0-9]{9}").unwrap());
+const PID_REGEX: LazyLock<Regex> = LazyLock::new(|| Regex::new("^[0-9]{9}$").unwrap());
 
 fn byr(val: &str) -> bool {
     val.parse::<usize>().is_ok_and(|x| 1920 <= x && x <= 2002)
