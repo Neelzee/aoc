@@ -7,7 +7,5 @@ edition = "2024"
 regex = { workspace = true }
 
 [features]
-default = ["p2"]
 p1 = []
 p2 = []
-
